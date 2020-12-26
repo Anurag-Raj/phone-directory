@@ -1,11 +1,11 @@
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div>
-    </div>
-  );
+import React, { Component } from 'react';
+class App extends Component {
+  render() {
+    return (
+      <div>
+        Phone Directoy
+      </div>
+    );
+  }
 }
-
 export default App;
